@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install ClawHub
+      name: Install ClawHub
         run: npm install -g clawhub
 
       - name: Install Verified Agent Identity
